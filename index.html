@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- 네비게이션 -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Start Bootstrap</a>
+            <!-- 모바일 메뉴 -->
+            <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbarmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="intro.html" class="nav-link">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="service.html" class="nav-link">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <!-- 드롭 다운 메뉴 -->
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="port_drop" data-toggle="dropdown">Portfolio</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a href="portfolio1.html" class="dropdown-item">포트폴리오1</a>
+                            <a href="portfolio2.html" class="dropdown-item">포트폴리오2</a>
+                            <a href="portfolio3.html" class="dropdown-item">포트폴리오3</a>
+                            <a href="portfolio4.html" class="dropdown-item">포트폴리오4</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="blog_drop" data-toggle="dropdown">Blog</a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a href="blog1.html" class="dropdown-item">Blog 1</a>
+                            <a href="blog2.html" class="dropdown-item">Blog 2</a>
+                            <a href="blog3.html" class="dropdown-item">Blog 3</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 이미지 시작 -->
+    <header>
+        <div id="carousel_img" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel_img" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel_img" data-slide-to="1"></li>
+                <li data-target="#carousel_img" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active" style="background-image:url('assets/image/main1.jpg')">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+
+                <div class="carousel-item" style="background-image:url('assets/image/main2.jpg')">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+
+                <div class="carousel-item" style="background-image:url('assets/image/main3.jpg')">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- <a href="#carousel_img" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a href="#carousel_img" class="carousel-control-next" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a> -->
+    </header>
+
+    <div class="container">
+        <h1 class="my-4">Welcome to My Website</h1>
+        <!-- my: 마진 top/bottom -->
+        <div class="row">
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <h4 class="card-header">Card Title</h4>
+                    <div class="card-body">
+                        <p class="card-text">Immature love says I love you because I need you. Mature love says I need
+                            you because I love you.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <h4 class="card-header">Card Title</h4>
+                    <div class="card-body">
+                        <p class="card-text">Immature love says I love you because I need you. Mature love says I need
+                            you because I love you.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mb-4">
+                <div class="card">
+                    <h4 class="card-header">Card Title</h4>
+                    <div class="card-body">
+                        <p class="card-text">Immature love says I love you because I need you. Mature love says I need
+                            you because I love you.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 포트폴리오 섹션 -->
+        <h2>Portfolio</h2>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="#"><img src="assets/image/img1.jpg" alt="girl" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 1</a>
+                        </h4>
+                        <p class="card-text">Immature love says I love you because I need you. Mature love says I need
+                            you because I love you.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="#"><img src="assets/image/img2.jpg" alt="rock" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 1</a>
+                        </h4>
+                        <p class="card-text">Immature love says I love you because I need you. Mature love says I need
+                            you because I love you.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="#"><img src="assets/image/img3.jpg" alt="street" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 1</a>
+                        </h4>
+                        <p class="card-text">Immature love says I love you because I need you. Mature love says I need
+                            you because I love you.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="#"><img src="assets/image/img4.jpg" alt="squirrel" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 1</a>
+                        </h4>
+                        <p class="card-text">Immature love says I love you because I need you. Mature love says I need
+                            you because I love you.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="#"><img src="assets/image/img5.jpg" alt="tile" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 1</a>
+                        </h4>
+                        <p class="card-text">Immature love says I love you because I need you. Mature love says I need
+                            you because I love you.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="card">
+                    <a href="#"><img src="assets/image/img6.jpg" alt="flower" class="card-img-top"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <a href="#">Project 1</a>
+                        </h4>
+                        <p class="card-text">Immature love says I love you because I need you. Mature love says I need
+                            you because I love you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 대표이미지 형식의 섹션 -->
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Business Features</h2>
+                <p>Business template by Start Bootstrap includes.</p>
+                <ul>
+                    <li>
+                        <strong>Bootstrap v4</strong>
+                    </li>
+                    <li>JQuery</li>
+                    <li>Font Awesome</li>
+                    <li>Working contact from</li>
+                    <li>elements for easy customization</li>
+                </ul>
+                <p>Immature love says I love you because I need you. Mature love says I need you because I love you.
+                </p>
+            </div>
+
+            <div class="col-lg-6">
+                <img src="assets/image/img7.jpg" alt="sky" class="img-fluid rounded">
+            </div>
+        </div>
+        <hr>
+
+        <div class="row mb-4">
+            <div class="col-md-8">
+                <p>Immature love says I love you because I need you. Mature love says I need you because I love you.
+                </p>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="btn btn-lg btn-secondary btn-block">Call to Action</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <p class="text-center text-white">Copyright &copy; Website 2020</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
